@@ -1,18 +1,42 @@
-name: Swagger UI
-description: '  https://cdxapps.epa.gov/cef-web/swagger-ui/index.html'
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-GWR5vV2n.png
-url: https://example.com/apis/swagger-ui-GWR5vV2n.yml
-created: 2024/7/2
-modified: 2024/7/2
-specificationVersion: '0.16'
+aid: epa-gov
+name: EPA.gov
+description: >-
+  The U.S. Environmental Protection Agency (EPA) provides APIs and data services
+  for accessing environmental data. The EPA's Central Data Exchange (CDX) system
+  provides APIs for reporting and accessing environmental compliance data
+  including emissions, water quality, and hazardous waste information.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Bookmark
+  - Federal Government
+  - Environment
+  - Compliance
+  - Data
+url: https://www.epa.gov/
+created: '2024-07-02'
+modified: '2026-03-16'
+position: Consumer
+access: 3rd-Party
+specificationVersion: '0.19'
 apis:
-  - name: Swagger UI
-    description: '  https://cdxapps.epa.gov/cef-web/swagger-ui/index.html'
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  - aid: epa-gov:epa-cef-api
+    name: EPA CEF API
+    description: >-
+      The EPA Clean Air Act Emissions Inventory (CEF) API provides access to
+      emissions reporting data through the Central Data Exchange system.
     humanURL: https://cdxapps.epa.gov/cef-web/swagger-ui/index.html
+    tags:
+      - Environment
+      - Emissions
+      - Compliance
+    properties:
+      - type: Documentation
+        url: https://cdxapps.epa.gov/cef-web/swagger-ui/index.html
+common:
+  - type: Website
+    url: https://www.epa.gov/
+  - type: Portal
+    url: https://www.epa.gov/enviro/envirofacts-data-service-api
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
