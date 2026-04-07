@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Federal Government
-  - Environment
   - Compliance
   - Data
+  - Environment
+  - Federal Government
 url: https://www.epa.gov/
 created: '2024-07-02'
 modified: '2026-03-16'
@@ -26,9 +26,9 @@ apis:
       emissions reporting data through the Central Data Exchange system.
     humanURL: https://cdxapps.epa.gov/cef-web/swagger-ui/index.html
     tags:
-      - Environment
-      - Emissions
       - Compliance
+      - Emissions
+      - Environment
     properties:
       - type: Documentation
         url: https://cdxapps.epa.gov/cef-web/swagger-ui/index.html
