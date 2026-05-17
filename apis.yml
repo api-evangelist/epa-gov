@@ -7,7 +7,7 @@ description: >-
   Envirofacts Data Service, Air Quality System (AQS), UV Index, and ECHO
   Compliance and Enforcement APIs. Refer to the canonical record for current
   API listings, properties, and metadata.
-type: Alias
+kind: alias
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Alias
