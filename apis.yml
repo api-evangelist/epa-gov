@@ -22,6 +22,10 @@ access: 3rd-Party
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/USEPA
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/us-epa
   - type: Website
     url: https://www.epa.gov/
   - type: Portal
