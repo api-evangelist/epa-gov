@@ -8,7 +8,7 @@ description: >-
   Compliance and Enforcement APIs. Refer to the canonical record for current
   API listings, properties, and metadata.
 kind: alias
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Alias
   - Environment
