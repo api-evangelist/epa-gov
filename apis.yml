@@ -23,6 +23,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epa-gov.pn
 tags:
   - Alias
   - Environment
+  - Federal-Government
+  - Open Data
+tags_raw:
+  - Alias
+  - Environment
   - Federal Government
   - Open Data
 url: https://www.epa.gov/
